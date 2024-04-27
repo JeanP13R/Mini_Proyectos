@@ -1,0 +1,61 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DCBC61;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #DCBC61;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li a:hover{
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #DCBC61;
+}
+
+/* Estilos para la sección de destacados */
+.destacados {
+    text-align: center;
+    padding: 20px;
+}
+
+.producto {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    height: 500px;
+    width: 500px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
